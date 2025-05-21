@@ -8,28 +8,35 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body class="bg-[url(https://i.ibb.co/b8mKG3L/angelo-abear-l-OQEDMw2qko-unsplash.jpg)] bg-fixed bg-cover bg-center">
-    
+   
     <div id="content-box" class="sticky top-0 relative z-10 m-10 p-2 rounded-xl bg-gradient-to-r from-cyan-300 to-blue-600 shadow-md border border-cyan-500">
         <div class="hidden md:grid grid-cold-12 w-full">
-            <nav class="grid grid-cols-12 m-2 p-2 text-center font-bold font-serif">
-                <div class="col-span-3 col-start-1">Home</div>
-                <div class="col-span-3 col-start-4">Projects</div>
-                <div class="col-span-3 col-start-7">About</div>
-                <div class="col-span-3 col-start-10">Contact</div>
+           <nav class="grid grid-cols-12 m-2 p-2 text-center font-bold font-serif">
+            <div class="col-span-3 col-start-1 nav-link">
+                <a href="#home" class="nav-link text-gray-200">Home</a> 
+            </div>
+            <div class="col-span-3 col-start-4 nav-link">
+                <a href="#about" class="nav-link text-gray-200">About</a> 
+            </div>
+            <div class="col-span-3 col-start-7 nav-link">
+                <a href="#projects" class="nav-link text-gray-200">Projects</a> 
+            </div>
+            <div class="col-span-3 col-start-10 nav-link">
+                <a href="#contact" class="nav-link text-gray-200">Contact</a> 
+            </div>
             </nav>
         </div>
     </div>
 
     <div class="grid grid-cols-12">
-        <div id="introduction-box" class="m-10 col-span-12 rounded-xl p-6 bg-gradient-to-r from-blue-400/80 to-indigo-600/80 shadow-md border border-cyan-500 shadow-lg border border-cyan-300/50 hover:scale-102 transition-transform duration-300">
+        <div id="home" class="m-10 col-span-12 rounded-xl p-6 bg-gradient-to-r from-blue-400/80 to-indigo-600/80 shadow-md shadow-lg border border-cyan-300/50 hover:scale-102 transition-transform duration-300">
           <div class="flex items-center justify-between">
-            <!-- Text on the left -->
-            <p class="text-lg max-w-md">
+            <p class="text-lg max-w-md text-2xl text-center">
               Hi, I'm Sarolta, I'm a developer. Let's build something great from your ideas!
             </p>
       
-            <!-- Image on the right -->
             <div class="w-36 h-36 rounded-full border-4 border-white overflow-hidden box-content ml-6 shrink-0">
               <img src="https://i.ibb.co/rKFPWz1F/IMG-9711.jpg" alt="Profile" class="w-full h-full object-cover" />
             </div>
@@ -37,7 +44,7 @@
         </div>
       </div> 
 
-    <h2 class="text-center">About</h2>
+    <h2 id="about" class="text-center">About</h2>
     <div class="grid grid-cols-12"> 
         <div class="col-span-6 col-start-1 m-10 rounded-xl p-6 bg-gradient-to-r from-blue-400/80 to-blue-500/80 shadow-md border border-cyan-500 shadow-lg border border-cyan-300/50 hover:scale-102 transition-transform duration-300">
             <p class="text-center">
@@ -51,20 +58,23 @@
         </div>
     </div>
 
-    <h2 class="text-center">Projects</h2>
+    <h2 id="projects" class="text-center">Projects</h2>
     <div class="grid-cols-12 m-10 rounded-xl p-6 bg-gradient-to-r from-blue-400/80 to-indigo-600/80 shadow-md border border-cyan-500 shadow-lg border border-cyan-300/50 hover:scale-102 transition-transform duration-300">
         <p>
             Projects
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
     </div>
 
-    <h2 class="text-center">Contact</h2>
+    <h2 id="contact" class="text-center">Contact</h2>
     <div class="grid-cols-12 m-10 rounded-xl p-6 bg-gradient-to-r from-blue-400/80 to-indigo-600/80 shadow-md border border-cyan-500 shadow-lg border border-cyan-300/50 hover:scale-102 transition-transform duration-300">
         <p>
             Email-box
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
     </div>
 
 
+<script src="script.js"></script>
 </body>
 </html>
